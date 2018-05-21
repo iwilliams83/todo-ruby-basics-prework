@@ -27,11 +27,6 @@ def last_evaluated_value
   "expert"
 end
 
-def pizza_party(arg)
-  if arg != nil
-    arg
-  else
-    "cheese"
-  end
-
+def pizza_party(arg="cheese")
+  arg
 end
