@@ -1,13 +1,18 @@
 def division(num1, num2)
- 
+  if num2 != 0
+    num1/num2
+  else
+    "cannot divide by 0"
+  end
+
 end
 
 def assign_variable(value)
-  
+
 end
 
 def argue
-  
+
 end
 
 def greeting
